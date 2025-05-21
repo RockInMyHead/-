@@ -8,6 +8,7 @@
 python3 -m online_school.main
 ```
 
+
 ## Админ панель
 
 Для управления курсами и контрольными работами запустите:
@@ -15,4 +16,5 @@ python3 -m online_school.main
 ```bash
 python3 -m online_school.admin
 ```
+
 

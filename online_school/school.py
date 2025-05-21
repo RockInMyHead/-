@@ -2,6 +2,7 @@ from .students import Student
 from .courses import Course
 
 
+
 class Test:
     """Represents a control work linked to a course."""
 
@@ -34,6 +35,7 @@ class School:
         self.courses[title] = course
         return course
 
+
     def add_test(self, title: str, course_title: str) -> Test:
         course = self.courses.get(course_title)
         if not course:
@@ -57,5 +59,7 @@ class School:
     def list_courses(self):
         return list(self.courses.values())
 
+
     def list_tests(self):
         return list(self.tests)
+
